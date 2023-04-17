@@ -1,4 +1,4 @@
-ToolSet: w64 9.0 (local)@D:\Lion\CLion 2022.2\bin\mingw
+ToolSet: w64 9.0 (local)@D:\Lion\CLion 2023.1\bin\mingw
 Options: 
 
-Options:-DCMAKE_MAKE_PROGRAM=D:/Lion/CLion 2022.2/bin/ninja/win/ninja.exe
+Options:-DCMAKE_TOOLCHAIN_FILE=D:\vcpkg_lion\scripts\buildsystems\vcpkg.cmake
