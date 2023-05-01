@@ -8,7 +8,7 @@ find_package(expat CONFIG REQUIRED)
 find_package(ZLIB REQUIRED)
 find_package(Poco REQUIRED COMPONENTS Net)
 
-add_executable(newProject TodoSereverApp.cpp TodoServerApp.h)
+add_executable(newProject TodoSereverApp.cpp TodoServerApp.h MimeTypes.cpp MimeTypes.cpp MimeTypes.cpp MimeTypes.h)
 target_link_libraries(newProject PRIVATE BZip2::BZip2)
 target_link_libraries(newProject PRIVATE expat::expat)
 target_link_libraries(newProject PRIVATE ZLIB::ZLIB)
