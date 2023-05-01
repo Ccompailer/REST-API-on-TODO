@@ -181,9 +181,3 @@ int TodoServerApp::main(const std::vector<std::string> &) {
 
 
 
-
-int main ()
-{
-    return 0;
-}
-
