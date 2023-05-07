@@ -1,6 +1,6 @@
-The system is: Windows - 10.0.22621 - AMD64
+The system is: Windows - 10.0.19044 - AMD64
 Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
-Compiler: D:/Lion/CLion 2023.1/bin/mingw/bin/gcc.exe 
+Compiler: F:/Clion/CLion 2023.1/bin/mingw/bin/gcc.exe 
 Build flags: 
 Id flags:  
 
@@ -10,10 +10,10 @@ The output was:
 
 Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.exe"
 
-The C compiler identification is GNU, found in "C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe"
+The C compiler identification is GNU, found in "C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdC/a.exe"
 
 Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
-Compiler: D:/Lion/CLion 2023.1/bin/mingw/bin/g++.exe 
+Compiler: F:/Clion/CLion 2023.1/bin/mingw/bin/g++.exe 
 Build flags: 
 Id flags:  
 
@@ -23,145 +23,163 @@ The output was:
 
 Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
 
-The CXX compiler identification is GNU, found in "C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
+The CXX compiler identification is GNU, found in "C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/3.25.2/CompilerIdCXX/a.exe"
 
 Detecting C compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n5ut7l
+Change Dir: C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton
 
-Run Build Command(s):D:/Lion/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_9624e && [1/2] Building C object CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj
+Run Build Command(s):F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6507e/fast && F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6507e.dir\build.make CMakeFiles/cmTC_6507e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton'
+Building C object CMakeFiles/cmTC_6507e.dir/CMakeCCompilerABI.c.obj
+"F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj -c "F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c"
 Using built-in specs.
-COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\gcc.exe
+COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe
 Target: x86_64-w64-mingw32
 Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9624e.dir/'
- D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:/Lion/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9624e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Antonio\AppData\Local\Temp\cczWuUcv.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_6507e.dir\'
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_6507e.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\1\AppData\Local\Temp\ccDaxSt3.s
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
 ignoring nonexistent directory "/win/include"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../include"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
 ignoring nonexistent directory "/mingw/include"
 #include "..." search starts here:
 #include <...> search starts here:
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
 End of search list.
 GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 23424b72d090e8b977a96775bde79257
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9624e.dir/'
- as -v -o CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj C:\Users\Antonio\AppData\Local\Temp\cczWuUcv.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_6507e.dir\'
+ as -v -o CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj C:\Users\1\AppData\Local\Temp\ccDaxSt3.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
-COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
-LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.'
-[2/2] Linking C executable cmTC_9624e.exe
+COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.'
+Linking C executable cmTC_6507e.exe
+"F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6507e.dir\link.txt --verbose=1
+"F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6507e.dir/objects.a
+"F:\Clion\CLion 2023.1\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_6507e.dir/objects.a @CMakeFiles\cmTC_6507e.dir\objects1
+"F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe"  -v -Wl,--whole-archive CMakeFiles\cmTC_6507e.dir/objects.a -Wl,--no-whole-archive -o cmTC_6507e.exe -Wl,--out-implib,libcmTC_6507e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\gcc.exe
-COLLECT_LTO_WRAPPER=D:/Lion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe
+COLLECT_LTO_WRAPPER=F:/Clion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
 Target: x86_64-w64-mingw32
 Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
-LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9624e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9624e.'
- D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9624e.exe D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9624e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9624e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9624e.'
+COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6507e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6507e.'
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_6507e.exe F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_6507e.dir/objects.a --no-whole-archive --out-implib libcmTC_6507e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6507e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6507e.'
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/1/.clion-vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton/cmTC_6507e.exe -installedDir C:/Users/1/.clion-vcpkg/vcpkg/installed/x64-windows/bin -OutVariable out
+mingw32-make[1]: Leaving directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton'
 
 
 
 Parsed C implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   end of search list found
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [D:/Lion/CLion 2023.1/bin/mingw/include]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Lion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
-  implicit include dirs: [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/Lion/CLion 2023.1/bin/mingw/include;D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/Lion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [F:/Clion/CLion 2023.1/bin/mingw/include]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [F:/Clion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;F:/Clion/CLion 2023.1/bin/mingw/include;F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;F:/Clion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
 
 
 Parsed C implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-n5ut7l]
+  ignore line: [Change Dir: C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Lion/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_9624e && [1/2] Building C object CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: [Run Build Command(s):F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_6507e/fast && F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_6507e.dir\build.make CMakeFiles/cmTC_6507e.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton']
+  ignore line: [Building C object CMakeFiles/cmTC_6507e.dir/CMakeCCompilerABI.c.obj]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj -c "F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c"]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe]
   ignore line: [Target: x86_64-w64-mingw32]
   ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9624e.dir/']
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:/Lion/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles/cmTC_9624e.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Antonio\AppData\Local\Temp\cczWuUcv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_6507e.dir\']
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1.exe -quiet -v -iprefix F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCCompilerABI.c -quiet -dumpdir CMakeFiles\cmTC_6507e.dir\ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\1\AppData\Local\Temp\ccDaxSt3.s]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
   ignore line: [ignoring nonexistent directory "/win/include"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../include"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
   ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   ignore line: [End of search list.]
   ignore line: [GNU C17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 23424b72d090e8b977a96775bde79257]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9624e.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj C:\Users\Antonio\AppData\Local\Temp\cczWuUcv.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_6507e.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj C:\Users\1\AppData\Local\Temp\ccDaxSt3.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
-  ignore line: [COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
-  ignore line: [LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.']
-  ignore line: [[2/2] Linking C executable cmTC_9624e.exe]
+  ignore line: [COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.obj' '-c' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_6507e.dir\CMakeCCompilerABI.c.']
+  ignore line: [Linking C executable cmTC_6507e.exe]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_6507e.dir\link.txt --verbose=1]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_6507e.dir/objects.a]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_6507e.dir/objects.a @CMakeFiles\cmTC_6507e.dir\objects1]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe"  -v -Wl --whole-archive CMakeFiles\cmTC_6507e.dir/objects.a -Wl --no-whole-archive -o cmTC_6507e.exe -Wl --out-implib libcmTC_6507e.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\gcc.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=D:/Lion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=F:/Clion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
   ignore line: [Target: x86_64-w64-mingw32]
   ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
-  ignore line: [LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9624e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9624e.']
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9624e.exe D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_9624e.dir/CMakeCCompilerABI.c.obj --out-implib libcmTC_9624e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9624e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9624e.']
+  ignore line: [COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6507e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6507e.']
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_6507e.exe F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_6507e.dir/objects.a --no-whole-archive --out-implib libcmTC_6507e.dll.a --major-image-version 0 --minor-image-version 0 -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc -lgcc_eh -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_6507e.exe' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_6507e.']
+  ignore line: [C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/1/.clion-vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton/cmTC_6507e.exe -installedDir C:/Users/1/.clion-vcpkg/vcpkg/installed/x64-windows/bin -OutVariable out]
+  ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-4xjton']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -171,160 +189,178 @@ Parsed C implicit link information from above output:
 
 
 Detecting CXX compiler ABI info compiled with the following output:
-Change Dir: C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7nx9b6
+Change Dir: C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q
 
-Run Build Command(s):D:/Lion/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_9fb41 && [1/2] Building CXX object CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj
+Run Build Command(s):F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_bf903/fast && F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bf903.dir\build.make CMakeFiles/cmTC_bf903.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q'
+Building CXX object CMakeFiles/cmTC_bf903.dir/CMakeCXXCompilerABI.cpp.obj
+"F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"
 Using built-in specs.
-COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\g++.exe
+COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe
 Target: x86_64-w64-mingw32
 Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9fb41.dir/'
- D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:/Lion/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9fb41.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Antonio\AppData\Local\Temp\ccFar8hM.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_bf903.dir\'
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_bf903.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\1\AppData\Local\Temp\cc0lvxpk.s
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"
 ignoring nonexistent directory "/win/include"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../include"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
-ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../include"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"
+ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"
 ignoring nonexistent directory "/mingw/include"
 #include "..." search starts here:
 #include <...> search starts here:
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
- D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include
 End of search list.
 GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)
 	compiled by GNU C version 11.2.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version none
 GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
 Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9fb41.dir/'
- as -v -o CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Antonio\AppData\Local\Temp\ccFar8hM.s
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_bf903.dir\'
+ as -v -o CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\1\AppData\Local\Temp\cc0lvxpk.s
 GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37
-COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
-LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.'
-[2/2] Linking CXX executable cmTC_9fb41.exe
+COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.'
+Linking CXX executable cmTC_bf903.exe
+"F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bf903.dir\link.txt --verbose=1
+"F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bf903.dir/objects.a
+"F:\Clion\CLion 2023.1\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_bf903.dir/objects.a @CMakeFiles\cmTC_bf903.dir\objects1
+"F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe"  -v -Wl,--whole-archive CMakeFiles\cmTC_bf903.dir/objects.a -Wl,--no-whole-archive -o cmTC_bf903.exe -Wl,--out-implib,libcmTC_bf903.dll.a -Wl,--major-image-version,0,--minor-image-version,0 
 Using built-in specs.
-COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\g++.exe
-COLLECT_LTO_WRAPPER=D:/Lion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
+COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe
+COLLECT_LTO_WRAPPER=F:/Clion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe
 Target: x86_64-w64-mingw32
 Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends
 Thread model: posix
 Supported LTO compression algorithms: zlib
 gcc version 11.2.0 (GCC) 
-COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
-LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fb41.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9fb41.'
- D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9fb41.exe D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_9fb41.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
-COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fb41.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9fb41.'
+COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/
+LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/;F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf903.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bf903.'
+ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_bf903.exe F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_bf903.dir/objects.a --no-whole-archive --out-implib libcmTC_bf903.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o
+COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf903.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bf903.'
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/1/.clion-vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q/cmTC_bf903.exe -installedDir C:/Users/1/.clion-vcpkg/vcpkg/installed/x64-windows/bin -OutVariable out
+mingw32-make[1]: Leaving directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q'
 
 
 
 Parsed CXX implicit include dir info from above output: rv=done
   found start of include info
   found start of implicit include info
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
-    add: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+    add: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   end of search list found
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [D:/Lion/CLion 2023.1/bin/mingw/include]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
-  collapse include dir [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [D:/Lion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
-  implicit include dirs: [D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;D:/Lion/CLion 2023.1/bin/mingw/include;D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;D:/Lion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include] ==> [F:/Clion/CLion 2023.1/bin/mingw/include]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed] ==> [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  collapse include dir [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include] ==> [F:/Clion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
+  implicit include dirs: [F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++;F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32;F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward;F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include;F:/Clion/CLion 2023.1/bin/mingw/include;F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed;F:/Clion/CLion 2023.1/bin/mingw/x86_64-w64-mingw32/include]
 
 
 Parsed CXX implicit link information from above output:
   link line regex: [^( *|.*[/\])(ld\.exe|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
-  ignore line: [Change Dir: C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-7nx9b6]
+  ignore line: [Change Dir: C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q]
   ignore line: []
-  ignore line: [Run Build Command(s):D:/Lion/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_9fb41 && [1/2] Building CXX object CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: [Run Build Command(s):F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_bf903/fast && F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_bf903.dir\build.make CMakeFiles/cmTC_bf903.dir/build]
+  ignore line: [mingw32-make[1]: Entering directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q']
+  ignore line: [Building CXX object CMakeFiles/cmTC_bf903.dir/CMakeCXXCompilerABI.cpp.obj]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe"   -fdiagnostics-color=always   -v -o CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj -c "F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp"]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\g++.exe]
+  ignore line: [COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe]
   ignore line: [Target: x86_64-w64-mingw32]
   ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9fb41.dir/']
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT D:/Lion/CLion 2023.1/bin/cmake/win/x64/share/cmake-3.25/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles/cmTC_9fb41.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\Antonio\AppData\Local\Temp\ccFar8hM.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_bf903.dir\']
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/cc1plus.exe -quiet -v -iprefix F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/ -D_REENTRANT F:\Clion\CLion 2023.1\bin\cmake\win\x64\share\cmake-3.25\Modules\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\cmTC_bf903.dir\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=generic -march=x86-64 -version -fdiagnostics-color=always -o C:\Users\1\AppData\Local\Temp\cc0lvxpk.s]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include"]
   ignore line: [ignoring nonexistent directory "/win/include"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../include"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
-  ignore line: [ignoring duplicate directory "D:/Lion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../include"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed"]
+  ignore line: [ignoring duplicate directory "F:/Clion/CLion 2023.1/bin/mingw/lib/gcc/../../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include"]
   ignore line: [ignoring nonexistent directory "/mingw/include"]
   ignore line: [#include "..." search starts here:]
   ignore line: [#include <...> search starts here:]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../include]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed]
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/include]
   ignore line: [End of search list.]
   ignore line: [GNU C++17 (GCC) version 11.2.0 (x86_64-w64-mingw32)]
   ignore line: [	compiled by GNU C version 11.2.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version none]
   ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
   ignore line: [Compiler executable checksum: 916242a6eadede3a42d72bc0142b939f]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9fb41.dir/']
-  ignore line: [ as -v -o CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj C:\Users\Antonio\AppData\Local\Temp\ccFar8hM.s]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_bf903.dir\']
+  ignore line: [ as -v -o CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj C:\Users\1\AppData\Local\Temp\cc0lvxpk.s]
   ignore line: [GNU assembler version 2.37 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.37]
-  ignore line: [COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
-  ignore line: [LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.']
-  ignore line: [[2/2] Linking CXX executable cmTC_9fb41.exe]
+  ignore line: [COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-fdiagnostics-color=always' '-v' '-o' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'CMakeFiles\cmTC_bf903.dir\CMakeCXXCompilerABI.cpp.']
+  ignore line: [Linking CXX executable cmTC_bf903.exe]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_bf903.dir\link.txt --verbose=1]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_bf903.dir/objects.a]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_bf903.dir/objects.a @CMakeFiles\cmTC_bf903.dir\objects1]
+  ignore line: ["F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe"  -v -Wl --whole-archive CMakeFiles\cmTC_bf903.dir/objects.a -Wl --no-whole-archive -o cmTC_bf903.exe -Wl --out-implib libcmTC_bf903.dll.a -Wl --major-image-version 0 --minor-image-version 0 ]
   ignore line: [Using built-in specs.]
-  ignore line: [COLLECT_GCC=D:\Lion\CLion 2023.1\bin\mingw\bin\g++.exe]
-  ignore line: [COLLECT_LTO_WRAPPER=D:/Lion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
+  ignore line: [COLLECT_GCC=F:\Clion\CLion 2023.1\bin\mingw\bin\g++.exe]
+  ignore line: [COLLECT_LTO_WRAPPER=F:/Clion/CLion\ 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/lto-wrapper.exe]
   ignore line: [Target: x86_64-w64-mingw32]
   ignore line: [Configured with: ../gcc-11.2.0/configure --host=x86_64-w64-mingw32 --target=x86_64-w64-mingw32 --build=x86_64-alpine-linux-musl --prefix=/win --enable-checking=release --enable-fully-dynamic-string --enable-languages=c,c++ --enable-libatomic --enable-libgomp --enable-libstdcxx-filesystem-ts=yes --enable-libstdcxx-time=yes --enable-seh-exceptions --enable-shared --enable-static --enable-threads=posix --enable-version-specific-runtime-libs --disable-bootstrap --disable-graphite --disable-libada --disable-libstdcxx-pch --disable-libstdcxx-debug --disable-libquadmath --disable-lto --disable-nls --disable-multilib --disable-rpath --disable-symvers --disable-werror --disable-win32-registry --with-gnu-as --with-gnu-ld --with-system-libiconv --with-system-libz --with-gmp=/win/makedepends --with-mpfr=/win/makedepends --with-mpc=/win/makedepends]
   ignore line: [Thread model: posix]
   ignore line: [Supported LTO compression algorithms: zlib]
   ignore line: [gcc version 11.2.0 (GCC) ]
-  ignore line: [COMPILER_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
-  ignore line: [LIBRARY_PATH=D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
-  ignore line: [D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fb41.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9fb41.']
-  ignore line: [ D:/Lion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_9fb41.exe D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LD:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. CMakeFiles/cmTC_9fb41.dir/CMakeCXXCompilerABI.cpp.obj --out-implib libcmTC_9fb41.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o D:/Lion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
-  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_9fb41.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_9fb41.']
+  ignore line: [COMPILER_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/]
+  ignore line: [LIBRARY_PATH=F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/]
+  ignore line: [F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf903.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bf903.']
+  ignore line: [ F:/Clion/CLion 2023.1/bin/mingw/bin/../libexec/gcc/x86_64-w64-mingw32/11.2.0/collect2.exe -m i386pep -Bdynamic -o cmTC_bf903.exe F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtbegin.o -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0 -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib -LF:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../.. --whole-archive CMakeFiles\cmTC_bf903.dir/objects.a --no-whole-archive --out-implib libcmTC_bf903.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/../../../../x86_64-w64-mingw32/lib/../lib/default-manifest.o F:/Clion/CLion 2023.1/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/11.2.0/crtend.o]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_bf903.exe' '-shared-libgcc' '-mtune=generic' '-march=x86-64' '-dumpdir' 'cmTC_bf903.']
+  ignore line: [C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/1/.clion-vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q/cmTC_bf903.exe -installedDir C:/Users/1/.clion-vcpkg/vcpkg/installed/x64-windows/bin -OutVariable out]
+  ignore line: [mingw32-make[1]: Leaving directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-cfeu1q']
   ignore line: []
   ignore line: []
   implicit libs: []
@@ -334,10 +370,19 @@ Parsed CXX implicit link information from above output:
 
 
 Determining if the BZ2_bzCompressInit exist passed with the following output:
-Change Dir: C:/Users/Antonio/Desktop/newProject/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kvxxur
+Change Dir: C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kbe4cq
 
-Run Build Command(s):D:/Lion/CLion 2023.1/bin/ninja/win/x64/ninja.exe cmTC_1b941 && [1/2] Building C object CMakeFiles/cmTC_1b941.dir/CheckSymbolExists.c.obj
-[2/2] Linking C executable cmTC_1b941.exe
+Run Build Command(s):F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe -f Makefile cmTC_d1a5e/fast && F:/Clion/CLion 2023.1/bin/mingw/bin/mingw32-make.exe  -f CMakeFiles\cmTC_d1a5e.dir\build.make CMakeFiles/cmTC_d1a5e.dir/build
+mingw32-make[1]: Entering directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kbe4cq'
+Building C object CMakeFiles/cmTC_d1a5e.dir/CheckSymbolExists.c.obj
+"F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe"  @CMakeFiles/cmTC_d1a5e.dir/includes_C.rsp -fdiagnostics-color=always -o CMakeFiles\cmTC_d1a5e.dir\CheckSymbolExists.c.obj -c C:\Users\1\Desktop\Todo\REST-API-on-TODO\cmake-build-debug\CMakeFiles\CMakeScratch\TryCompile-kbe4cq\CheckSymbolExists.c
+Linking C executable cmTC_d1a5e.exe
+"F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E cmake_link_script CMakeFiles\cmTC_d1a5e.dir\link.txt --verbose=1
+"F:\Clion\CLion 2023.1\bin\cmake\win\x64\bin\cmake.exe" -E rm -f CMakeFiles\cmTC_d1a5e.dir/objects.a
+"F:\Clion\CLion 2023.1\bin\mingw\bin\ar.exe" qc CMakeFiles\cmTC_d1a5e.dir/objects.a @CMakeFiles\cmTC_d1a5e.dir\objects1
+"F:\Clion\CLion 2023.1\bin\mingw\bin\gcc.exe" -Wl,--whole-archive CMakeFiles\cmTC_d1a5e.dir/objects.a -Wl,--no-whole-archive -o cmTC_d1a5e.exe -Wl,--out-implib,libcmTC_d1a5e.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\cmTC_d1a5e.dir\linkLibs.rsp
+C:\Windows\System32\WindowsPowerShell\v1.0\powershell.exe -noprofile -executionpolicy Bypass -file C:/Users/1/.clion-vcpkg/vcpkg/scripts/buildsystems/msbuild/applocal.ps1 -targetBinary C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kbe4cq/cmTC_d1a5e.exe -installedDir C:/Users/1/.clion-vcpkg/vcpkg/installed/x64-windows/bin -OutVariable out
+mingw32-make[1]: Leaving directory 'C:/Users/1/Desktop/Todo/REST-API-on-TODO/cmake-build-debug/CMakeFiles/CMakeScratch/TryCompile-kbe4cq'
 
 
 File CheckSymbolExists.c:

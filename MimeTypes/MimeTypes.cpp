@@ -189,7 +189,7 @@ MimeTypes::entry MimeTypes::types[347] =  {
   {"jpgv", "video/jpeg"},
   {"jpm", "image/jpm"},
   {"jpx", "image/jpx"},
-  {"js", "application/javascript"},
+  {"JS", "application/javascript"},
   {"json", "application/json"},
   {"json5", "application/json5"},
   {"jsonld", "application/ld+json"},

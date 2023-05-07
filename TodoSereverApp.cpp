@@ -71,13 +71,13 @@ public :
 #include <iostream>
 #include <fstream>
 #include <map>
-#include "MimeTypes.h"
+#include "MimeTypes/MimeTypes.h"
 
 class CFileHandler : public HTTPRequestHandler {
     typedef std::map<const std::string , const std::string> TStrStrMap;
     TStrStrMap CONTENT_TYPE = {
-#include "MimeTypes.h"
-};
+#include "MimeTypes/MimeTypes.h"
+    };
 
     std::string getPath (std::string& path) {
         if (path == "/")
